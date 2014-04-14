@@ -10,4 +10,9 @@
 
 @interface LAViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *texField;
+@property (strong, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)convertButton:(UIButton *)sender;
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97C2D2018FC2E21009F6FBA /* LaikaSpaceDog-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A97C2D1F18FC2E21009F6FBA /* LaikaSpaceDog-3.jpg */; };
 		A9EBB10918F8573400AF932E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EBB10818F8573400AF932E /* Foundation.framework */; };
 		A9EBB10B18F8573400AF932E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EBB10A18F8573400AF932E /* CoreGraphics.framework */; };
 		A9EBB10D18F8573400AF932E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EBB10C18F8573400AF932E /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A97C2D1F18FC2E21009F6FBA /* LaikaSpaceDog-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaikaSpaceDog-3.jpg"; sourceTree = "<group>"; };
 		A9EBB10518F8573400AF932E /* LAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EBB10818F8573400AF932E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9EBB10A18F8573400AF932E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +128,7 @@
 		A9EBB10F18F8573400AF932E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A97C2D1F18FC2E21009F6FBA /* LaikaSpaceDog-3.jpg */,
 				A9EBB11018F8573400AF932E /* LAge-Info.plist */,
 				A9EBB11118F8573400AF932E /* InfoPlist.strings */,
 				A9EBB11418F8573400AF932E /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				A9EBB12118F8573400AF932E /* Images.xcassets in Resources */,
 				A9EBB11318F8573400AF932E /* InfoPlist.strings in Resources */,
+				A97C2D2018FC2E21009F6FBA /* LaikaSpaceDog-3.jpg in Resources */,
 				A9EBB11C18F8573400AF932E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +461,7 @@
 				A9EBB13918F8573400AF932E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9EBB13A18F8573400AF932E /* Build configuration list for PBXNativeTarget "LAgeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				A9EBB13C18F8573400AF932E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
